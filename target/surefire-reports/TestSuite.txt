@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.437 sec <<< FAILURE! - in TestSuite
+verify_Denail_DOS(inbox.Sample)  Time elapsed: 2.979 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at inbox.Sample.verify_Denail_DOS(Sample.java:39)
+

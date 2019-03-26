@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="commonConfiguration/CommonListener.java|excelLibrary/ExcelReader_old.java|pageObjectRepository/transaction/JuniorCallerInbox.java|excelLibrary/ExcelHelper.java|pageObjectRepository/historicalReports/FirstPassPaymentReport.java|pageObjectRepository/historicalReports/GrossAndNetCollectionReport.java|pageObjectRepository/historicalReports/RevenuePerVisitReport.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="inbox/Multiple_Analyst.java|master/KickOutRules.java|historicalReports/KickOut.java|dashboard/KickOut.java|inbox/PriorityQueue_DOS.java|inbox/PriorityQueue.java|CreditBalance/JrCaller.java|transaction/NeedCall.java|transaction/VoiceCall.java|CreditBalance/PrintAndMail.java|CreditBalance/ClientEscalation.java|historicalReports/FirstPassPayment.java|historicalReports/GrossAndNetCollection.java|historicalReports/RevenuePerVisit.java" kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/selenium-java-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/selenium-java-2.53.1-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/selenium-2.53.1/libs/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/poi-bin-3.17-20170915/poi-3.17/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/extentreports-java-2.41.2/lib/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/SelenuimDrivers/sqljdbc42.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

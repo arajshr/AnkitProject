@@ -1,0 +1,3 @@
+echo Executing batch...
+set classpath=E:\SVN\branches\ATOM\bin;E:\SVN\branches\ATOM\lib\*
+java org.testng.TestNG testng.xml

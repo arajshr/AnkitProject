@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5263" started-at="2019-01-29T07:57:21Z" finished-at="2019-01-29T07:57:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5263" started-at="2019-01-29T07:57:21Z" finished-at="2019-01-29T07:57:27Z">
+      <class name="inbox.Sample">
+        <test-method status="PASS" signature="startRepot()[pri:0, instance:inbox.Sample@77fbd92c]" name="startRepot" is-config="true" duration-ms="266" started-at="2019-01-29T13:27:21Z" finished-at="2019-01-29T13:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRepot -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:inbox.Sample@77fbd92c]" name="launchBrowser" is-config="true" duration-ms="5207" started-at="2019-01-29T13:27:21Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="login(java.lang.reflect.Method)[pri:0, instance:inbox.Sample@77fbd92c]" name="login" is-config="true" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void inbox.Sample.Denial_DOS()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Not executable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Not executable
+	at configuration.Configuration.login(Configuration.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="Denial_DOS()[pri:0, instance:inbox.Sample@77fbd92c]" name="Denial_DOS" duration-ms="1" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Denial_DOS -->
+        <test-method status="SKIP" signature="endLogger(org.testng.ITestResult)[pri:0, instance:inbox.Sample@77fbd92c]" name="endLogger" is-config="true" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogger -->
+        <test-method status="SKIP" signature="verify_KickOut_DOS()[pri:0, instance:inbox.Sample@77fbd92c]" name="verify_KickOut_DOS" duration-ms="2" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_KickOut_DOS -->
+        <test-method status="SKIP" signature="login(java.lang.reflect.Method)[pri:0, instance:inbox.Sample@77fbd92c]" name="login" is-config="true" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="endLogger(org.testng.ITestResult)[pri:0, instance:inbox.Sample@77fbd92c]" name="endLogger" is-config="true" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogger -->
+        <test-method status="SKIP" signature="login(java.lang.reflect.Method)[pri:0, instance:inbox.Sample@77fbd92c]" name="login" is-config="true" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="verify_Regular_DOS()[pri:0, instance:inbox.Sample@77fbd92c]" name="verify_Regular_DOS" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Regular_DOS -->
+        <test-method status="SKIP" signature="endLogger(org.testng.ITestResult)[pri:0, instance:inbox.Sample@77fbd92c]" name="endLogger" is-config="true" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLogger -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:inbox.Sample@77fbd92c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="endReport()[pri:0, instance:inbox.Sample@77fbd92c]" name="endReport" is-config="true" duration-ms="0" started-at="2019-01-29T13:27:27Z" finished-at="2019-01-29T13:27:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- inbox.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

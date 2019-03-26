@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="master.ConfigureUsersAndRoles">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="endLogger"/>
+          <include name="startRepot"/>
+        </methods>
+      </class> <!-- master.ConfigureUsersAndRoles -->
+      <class name="master.UserClientMapping">
+        <methods>
+          <include name="login"/>
+          <include name="verify_ClientDuplicateMapping"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- master.UserClientMapping -->
+      <class name="master.UserTargets">
+        <methods>
+          <include name="login"/>
+          <include name="verify_UserTargetOverlappingDates"/>
+          <include name="update_UserTargets"/>
+          <include name="endLogger"/>
+          <include name="verify_UserTargetForPrevoiusDates"/>
+        </methods>
+      </class> <!-- master.UserTargets -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

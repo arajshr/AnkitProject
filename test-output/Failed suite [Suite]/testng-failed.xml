@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="historicalReports.ErrorCategory">
+        <methods>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="endLogger"/>
+          <include name="verify_ErrorCategoryReport_Historical"/>
+          <include name="endReport"/>
+          <include name="startRepot"/>
+        </methods>
+      </class> <!-- historicalReports.ErrorCategory -->
+      <class name="transaction.Transaction_History">
+        <methods>
+          <include name="login"/>
+          <include name="verify_Trasnsaction_History"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- transaction.Transaction_History -->
+      <class name="historicalReports.QCWorkedAccounts">
+        <methods>
+          <include name="login"/>
+          <include name="verify_QCWorkedAccounts_Report"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- historicalReports.QCWorkedAccounts -->
+      <class name="transaction.ClientEscalation">
+        <methods>
+          <include name="login"/>
+          <include name="endLogger"/>
+          <include name="verify_ClientEscalation"/>
+        </methods>
+      </class> <!-- transaction.ClientEscalation -->
+      <class name="inbox.WorkOrderSummaryResponse">
+        <methods>
+          <include name="login"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- inbox.WorkOrderSummaryResponse -->
+      <class name="transaction.VoiceCall">
+        <methods>
+          <include name="login"/>
+          <include name="verify_VoiceCall"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- transaction.VoiceCall -->
+      <class name="qc.Rebuttal_Review">
+        <methods>
+          <include name="login"/>
+          <include name="verify_RebuttalReview_Accept"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- qc.Rebuttal_Review -->
+      <class name="transaction.Credentialing">
+        <methods>
+          <include name="login"/>
+          <include name="endLogger"/>
+          <include name="verify_Credentialing"/>
+        </methods>
+      </class> <!-- transaction.Credentialing -->
+      <class name="transaction.Denial">
+        <methods>
+          <include name="login"/>
+          <include name="verify_Denail"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- transaction.Denial -->
+      <class name="transaction.Coding">
+        <methods>
+          <include name="login"/>
+          <include name="endLogger"/>
+          <include name="verify_Coding"/>
+        </methods>
+      </class> <!-- transaction.Coding -->
+      <class name="dashboard.ProviderCredential">
+        <methods>
+          <include name="login"/>
+          <include name="verify_ProviderCredential_Dashboard"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- dashboard.ProviderCredential -->
+      <class name="qc.AcceptFeedback">
+        <methods>
+          <include name="login"/>
+          <include name="endLogger"/>
+          <include name="submit_QCAudit_AcceptFeedBack"/>
+        </methods>
+      </class> <!-- qc.AcceptFeedback -->
+      <class name="historicalReports.SimpleQuality">
+        <methods>
+          <include name="login"/>
+          <include name="verify_SimpleQuality_Report"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- historicalReports.SimpleQuality -->
+      <class name="qc.QC_History">
+        <methods>
+          <include name="verify_QCHistory"/>
+          <include name="login"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- qc.QC_History -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

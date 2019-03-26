@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" configfailurepolicy="continue">
+	<test thread-count="5" name="Test">
+	<classes>
+	    
+	     <!-- <class name="master.UserClientMapping"/>
+	     <class name="master.ConfigureUsersAndRoles"/>
+	     <class name="master.UserTargets"/> -->
+	        
+	    <class name="inbox.Denial_DOS"/>  
+	    <class name="inbox.Kickout_DOS"/>  
+	    <class name="inbox.Regular_DOS"/>    
+	    
+	     <!-- <class name="transaction.VoiceCall"/>   -->    
+	     <!-- <class name="transaction.NeedCall"/>  -->
+	     <class name="transaction.Coding"/>
+	     <class name="transaction.Clarification"/> 
+	     <!-- <class name="transaction.Credentialing"/> -->
+	     <class name="transaction.TempSave"/>
+	     <class name="transaction.Appeals"/>
+	     <class name="transaction.Denial"/>	     
+	     <class name="transaction.Priority"/>
+	     <class name="transaction.Transaction_History"/>
+	     <class name="transaction.Correspondance"/>
+	     <class name="transaction.ClaimTracer"/>
+	     <class name="transaction.ClientEscalation"/>
+	     <class name="transaction.Payment"/>
+	     <class name="transaction.ClientWorked"/>
+	     
+	     
+	     <class name="meob.MEOB_SeniorCaller"/>
+	     
+	    <class name="inbox.WorkOrderSummary"/>
+	    <class name="inbox.WorkOrderSummaryAppeals"/>
+	    <class name="inbox.WorkOrderSummaryResponse"/> 
+	    
+	    <class name="CreditBalance.CreditBalance"/>
+	    <class name="CreditBalance.TempSave"/>
+	    <class name="CreditBalance.Payment"/>
+	           
+	    <class name="qc.QC_History"/>
+	    <class name="qc.AcceptFeedback"/>
+	    <class name="qc.Rebuttal_Review"/>
+	       
+	    <class name="historicalReports.SimpleQuality"/>
+	    <class name="historicalReports.QCWorkedAccounts"/>
+	    <class name="historicalReports.ErrorCategory"/>
+	   <!--  <class name="dashboard.ProviderCredential"/> -->
+	    <class name="dashboard.UserWorkedAccounts"/>
+
+	</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
